@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <style>
+     /*по стандарту не видно  */
+        .cities { 
+            display: none; 
+        } 
+/* актив */
+        .active.cities { 
+            display: block; 
+        } 
+    </style> 
+
+
+
+<a href="../">Назад</a><!-- кнопка назад на страницу списка заданий -->
+
+    <!-- страны -->
+        <select id="countries"> 
+            <option value="ru">Россия</option> 
+            <option value="us">Китай</option> 
+            <option value="jp">Великобритания</option> 
+        </select> 
+         <!-- их города -->
+        <select id="rus" class="cities active"> 
+            <option>Москва</option> 
+            <option>Казань</option> 
+            <option>Чебоксары</option> 
+        </select> 
+        <select id="chi" class="cities"> 
+            <option>Mac</option> 
+            <option>KFC</option> 
+            <option>TEsla</option> 
+        </select> 
+        <select id="bri" class="cities"> 
+            <option>picca</option> 
+            <option>rolli</option> 
+            <option>usho</option> 
+        </select> 
+<script src="./assets/js/4main.js"></script>
+<!-- подрубаем js -->
+</body>
+</html>
